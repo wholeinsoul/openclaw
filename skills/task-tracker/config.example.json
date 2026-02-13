@@ -1,0 +1,18 @@
+{
+  "channel": "telegram",
+  "groupId": "",
+  "dashboardTopicId": "",
+  "dashboardMessageId": "",
+  "stallThresholds": {
+    "quick": 1800000,
+    "coding": 3600000,
+    "default": 1800000
+  },
+  "doneExpiryMs": 86400000,
+  "statusEmoji": {
+    "in_progress": "🔵",
+    "done": "✅",
+    "stalled": "🟡",
+    "cancelled": "⚫"
+  }
+}
